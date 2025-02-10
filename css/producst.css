@@ -1,3 +1,24 @@
+/*!-> Page Header */
+.page-header {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+                url('../img/productos.webp');
+    background-size: cover;
+    background-position: center;
+    padding: 4rem 1rem;
+    text-align: center;
+    color: white;
+}
+
+.page-header__title {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    animation: fadeInUp 1s ease-out;
+}
+
+.page-header__text{
+    animation: fadeInUp 1s ease-out;
+}
+
 /*!-> Sección de Productos */
 .products {
     max-width: 1200px;
@@ -7,7 +28,6 @@
     grid-template-columns: 1fr;
     gap: 2rem;
 }
-
 .filters {
     padding: 1rem;
     background: var(--color-background-alt-dark);
@@ -67,23 +87,3 @@
     margin-bottom: 1rem;
 }
 
-/*!-> Page Header */
-.page-header {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-                url('../img/productos.webp');
-    background-size: cover;
-    background-position: center;
-    padding: 4rem 1rem;
-    text-align: center;
-    color: white;
-}
-
-.page-header__title {
-    font-size: 3rem;
-    margin-bottom: 1rem;
-    animation: fadeInUp 1s ease-out;
-}
-
-.page-header__text{
-    animation: fadeInUp 1s ease-out;
-}

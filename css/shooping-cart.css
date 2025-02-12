@@ -69,7 +69,7 @@
 }
 
 .cart-item__image:hover {
-    transform: scale(1.15);
+    transform: scale(1.04);
 }
 
 .cart-item__details {

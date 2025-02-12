@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Perfil - EcoMuebles</title>
+    <link rel="stylesheet" href="../css/global.css">
+    <link rel="stylesheet" href="../css/profile.css">
+    <link rel="stylesheet" href="../css/mediaQueris.css">
+    <link rel="icon" type="image/svg+xml" href="../img/logo-hoja.svg">
+</head>
+
+<body>
+    <header class="header">
+        <nav class="nav">
+            <div class="nav__logo">
+                <img src="../img/logo-hoja.svg" alt="EcoMuebles Logo" class="nav__logo-icon">
+                <span class="nav__logo-text">EcoMuebles</span>
+            </div>
+            <input type="checkbox" id="nav-toggle" class="nav__toggle">
+            <label for="nav-toggle" class="nav__toggle-label">
+                <span></span>
+            </label>
+            <ul class="nav__menu">
+                <li class="nav__item"><a href="index.html" class="nav__link">Inicio</a></li>
+                <li class="nav__item"><a href="products.html" class="nav__link">Productos</a></li>
+                <li class="nav__item"><a href="contact.html" class="nav__link">Contacto</a></li>
+                <li class="nav__item"><a href="shooping-cart.html" class="nav__link">Carrito</a></li>
+                <li class="nav__item"><a href="profile.html" class="nav__link nav__link--active">Mi Perfil</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="profile-main">
+        <section class="profile-header">
+            <div class="profile-cover">
+                <h2 class="profile-title">Ésto sabemos de tí</h2>
+            </div>
+            <div class="profile-info">
+                <div class="profile-avatar">
+                    <img src="../img/jugador.webp" alt="Foto de perfil">
+                    
+                </div>
+                <div class="profile-details">
+                    <h1>Manué Zanche Zanche</h1>
+                    <p>Cliente Premium desde 2023</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="profile-content">
+            <div class="shopping-info">
+                <a href="#pedidos">Mis Pedidos</a>
+                <a href="shooping-cart.html">Carrito</a>
+            </div>
+        
+            <div class="profile-sections">
+                <article id="datos" class="profile-section">
+                    <div class="section-header">
+                        <h2>Datos Personales</h2>
+                        <div class="edit-pencil">
+                            <img src="../img/icono-editar.svg" alt="Editar">
+                        </div>
+                    </div>
+                    <div class="profile-form">
+                        <div class="form-group">
+                            <label>Nombre y Apellidos</label>
+                            <input type="text" value="Manué Zanche Zanche" disabled>
+                        </div>
+                        <div class="form-group">
+                            <label>Email</label>
+                            <input type="email" value="manue.zanche@email.com" disabled>
+                        </div>
+                        <div class="form-group">
+                            <label>Teléfono</label>
+                            <input type="tel" value="+34 123 456 789" disabled>
+                        </div>
+                        <div class="form-group">
+                            <label>Fecha de nacimiento</label>
+                            <input type="date" value="1992-01-20" disabled>        
+                </article>
+
+                <article id="pedidos" class="profile-section">
+                    <h2>Mis Pedidos</h2>
+                    <div class="orders-list">
+                        <div class="order-card">
+                            <div class="order-header">
+                                <span class="order-number">Pedido #12345</span>
+                                <span class="order-status success">Entregado</span>
+                            </div>
+                            <div class="order-content">
+                                <img src="../img/mesa1.webp"
+                                    alt="Silla Eco">
+                                <div class="order-details">
+                                    <h3>Mesa Chloris</h3>
+                                    <p>Fecha: 15/02/2024</p>
+                                    <p>Total: 490€</p>
+                                </div>
+                            </div>
+                            <button class="button button--primary">Ver detalles</button>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer__content">
+            <div class="footer__brand">
+                <img src="../img/logo-hoja.svg" alt="EcoMuebles Logo" class="footer__logo">
+                <p class="footer__tagline">Muebles sostenibles para un mañana mejor.</p>
+            </div>
+
+            <div class="footer__links">
+                <h3 class="footer__title">Enlaces Rápidos</h3>
+                <ul class="footer__menu">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="products.html">Productos</a></li>
+                    <li><a href="contact.html">Contacto</a></li>
+                    <li><a href="shooping-cart.html">Carrito</a></li>
+                </ul>
+            </div>
+
+            <div class="footer__social">
+                <h3 class="footer__title">Síguenos en RRSS</h3>
+                <div class="footer__social-icons">
+                    <a href="#" aria-label="Facebook">
+                        <img src="../img/logo-facebook.svg" alt="logo facebook">
+                    </a>
+                    <a href="#" aria-label="X">
+                        <img src="../img/logo-x.svg" alt="logo x">
+                    </a>
+                    <a href="#" aria-label="Instagram">
+                        <img src="../img/logo-instagram.svg" alt="logo instagram">
+                    </a>
+                    <a href="#" aria-label="Pinterest">
+                        <img src="../img/logo-pinterest.svg" alt="logo pinterest">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="footer__bottom">
+            <p>&copy; 2025 Antonio Gómez. Desde Andalucía, con ❤.</p>
+        </div>
+    </footer>
+</body>
+
+</html>

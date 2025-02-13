@@ -71,6 +71,16 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: bold;
 }
 
+.cart-icon {
+    width: 1.9rem;
+    height: 1.9rem;
+    vertical-align: middle;
+}
+
+.cart-icon__active{
+    opacity: 0.5;
+}
+
 .nav__toggle {
     display: none;
 }

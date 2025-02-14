@@ -1,8 +1,6 @@
 /*! -> Media Queries */
 /** -> Tablet */
 @media (min-width: 700px) {
-
-
     .hero__title {
         font-size: 3rem;
     }
@@ -12,7 +10,12 @@
     }
 
     .contact__content {
-        grid-template-columns: 1fr 2fr;
+        grid-template-columns: 3fr 1fr;
+    }
+
+    .contact__detail{
+        flex-direction: column;
+        gap: 0rem;
     }
 
     .products {
@@ -52,7 +55,6 @@
         justify-content: space-between;
         padding: 1rem 0.8rem;
     }
-
 
     .product-detail__price-container {
         flex-direction: row;
@@ -94,7 +96,7 @@
     }
 
     .profile-cover {
-        height: 175px;
+        height: 7.5rem;
     }
 
     .profile-avatar {
@@ -104,7 +106,7 @@
 
     .profile-details h1 {
         font-size: 1.75rem;
-        width: 80%;
+        width: 100%;
     }
 
     .shopping-info{
@@ -205,8 +207,13 @@
         border-bottom: none;
     }
 
+    .contact__detail {
+        flex-direction: row;
+        align-items: center;
+        gap: 1rem;
+    }
+
     article{
-        border-bottom: 1px solid var(--color-primary);
         margin-bottom: 2.5rem;
         padding-bottom: 1rem;
     }

@@ -29,11 +29,11 @@
 .contact__content {
     display: grid;
     grid-template-columns: 1fr;
-    gap: 2rem;
+    gap: 1rem;
 }
 
 .contact__info {
-    padding: 2rem;
+    padding: 0.5rem;
     background: var(--color-background-alt-dark);
     border-radius: 0.5rem;
 }
@@ -42,14 +42,13 @@
     margin-bottom: 1rem;
 }
 
-.contact__text {
-    margin-bottom: 2rem;
-}
 
 .contact__details {
     display: flex;
     flex-direction: column;
+    justify-content: start;
     gap: 1rem;
+    margin-top: 1rem;
 }
 
 .contact__detail {

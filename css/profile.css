@@ -7,6 +7,7 @@
     padding: 4rem 1rem 0rem 1rem;
     text-align: center;
     color: white;
+    height: 7rem;
 }
 
 .profile-title{
@@ -102,6 +103,7 @@
 .profile-form {
     display: grid;
     gap: 0.5rem;
+    margin-bottom: 1.5rem;
 }
 
 .profile-form .form-group {
@@ -123,6 +125,11 @@
 }
 
 /*!-> Tarjetas de Pedidos */
+article{
+    border-bottom: 1px solid var(--color-primary);
+    margin-bottom: 0.5rem;
+    padding-bottom: 1rem;
+}
 .orders-list {
     display: grid;
     gap: 1rem;
@@ -151,8 +158,14 @@
 
 .order-status.success {
     background-color: #C6F6D5;
-    color: #2F855A;
+    color: var(--color-primary);
 }
+
+.order-status.canceled{
+    background-color: #f6c6c6;
+    color: #852f2f;
+}
+
 
 .order-content {
     display: flex;

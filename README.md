@@ -22,26 +22,24 @@ EcoMuebles es una MockUp que simula una tienda en línea especializada en mueble
 - Especificaciones técnicas y características
 - Sistema de selección de cantidad
 - Botón de añadir al carrito
-- Diseño responsivo para todas las pantallas
 
 ### 🛒 Carrito de Compras
 - Gestión de cantidades
 - Resumen del pedido
 - Cálculo automático de totales
-- Proceso de checkout simplificado
 
 ### 📞 Página de Contacto
 - Formulario de contacto intuitivo
 - Múltiples opciones de asunto
 - Información de contacto directo
 - Ubicación de la tienda
-- Integración con newsletter
+- Integración con boletín/newsletter
 
 ### 👤 Página de Perfil
 - Perfil personalizado
 - Historial de pedidos
 - Gestión de datos personales
-- Estado de pedidos en tiempo real
+- Estado de pedidosl
 
 ### 📱 Diseño Responsive
 - Navegación adaptativa con menú hamburguesa
@@ -49,9 +47,9 @@ EcoMuebles es una MockUp que simula una tienda en línea especializada en mueble
 - Optimización de imágenes
 - Experiencia consistente en todos los dispositivos
 
-## 🎨 Diseño y Estilo
+## 👨‍🎨 Diseño y Estilo
 
-### 🎯 Paleta de Colores
+### 🎨  Paleta de Colores
 - Verde Principal: `#2F855A`
 - Verde Oscuro: `#276749`
 - Verde Claro: `#48BB78`
@@ -66,39 +64,44 @@ EcoMuebles es una MockUp que simula una tienda en línea especializada en mueble
 
 ## 🛠️ Tecnologías Utilizadas
 - HTML5 semántico
-- CSS3 moderno
+- CSS3
   - Metodologia BEM
+  - Mobile first
   - Flexbox
   - Grid
   - Variables CSS
   - Media Queries
-- Optimización de assets: imágenes en formato webp
+- Optimización de assets: imágenes en formato webp. Iconos en SVG.
 
 ## 📂 Estructura del Proyecto
 
 ```
 Maquetación/
 ├── css/
-│   ├── contact.css       # Estilos de la página de contacto
-│   ├── detail.css        # Estilos para las páginas de detalle
-│   ├── global.css        # Estilos globales y componentes comunes
-│   ├── index.css         # Estilos de la página principal
-│   ├── mediaQueris.css   # Diseño responsive
-│   ├── products.css      # Estilos del catálogo
-│   ├── profile.css       # Estilos del área de usuario
-│   └── shopping-cart.css # Estilos del carrito
+│   ├── contact.css        # Estilos de la página de contacto
+│   ├── detail.css         # Estilos para las páginas de detalle
+│   ├── global.css         # Estilos globales y componentes comunes
+│   ├── index.css          # Estilos de la página principal
+│   ├── mediaQueris.css    # Diseño responsive
+│   ├── products.css       # Estilos del catálogo
+│   ├── profile.css        # Estilos del área de usuario
+│   └── shopping-cart.css  # Estilos del carrito
 ├── html/
-│   ├── contact.html      # Página de contacto
-│   ├── detail-chair.html # Detalle de silla
-│   ├── detail-sofa.html  # Detalle de sofá
-│   ├── detail-table.html # Detalle de mesa
-│   ├── index.html        # Página principal
-│   ├── products.html     # Catálogo de productos
-│   ├── profile.html      # Área de usuario
+│   ├── contact.html       # Página de contacto
+│   ├── detail-chair.html  # Detalle de silla
+│   ├── detail-sofa.html   # Detalle de sofá
+│   ├── detail-table.html  # Detalle de mesa
+│   ├── index.html         # Página principal
+│   ├── products.html      # Catálogo de productos
+│   ├── profile.html       # Área de usuario
 │   └── shopping-cart.html # Carrito de compra
 ├── img/
 │    ├── *.webp            # Imágenes de productos y contenido
 │    └── *.svg             # Iconos y logos
+│
+│(NO Evaluar)
+├── scripts/ 
+│    └── extra.js          # Cambio entre imagenes detalle producto
 │   
 └── README.md
 
@@ -118,7 +121,6 @@ Maquetación/
 ### Accesibilidad
 - Etiquetas ARIA
 - Alto contraste
-- Navegación por teclado
 - Textos alternativos
 
 ## 👨‍💻 Desarrollador

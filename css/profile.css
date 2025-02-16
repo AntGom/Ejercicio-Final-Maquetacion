@@ -96,9 +96,14 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
     margin-bottom: 0.5rem;
 }
 
+.edit-pencil{
+    width: 2rem;
+    height: 2rem;
+}
 
 .profile-form {
     display: grid;
@@ -125,11 +130,10 @@
 }
 
 /*!-> Tarjetas de Pedidos */
-article{
-    border-bottom: 1px solid var(--color-primary);
-    margin-bottom: 0.5rem;
-    padding-bottom: 1rem;
+#order{
+    scroll-margin-top: 5rem;
 }
+
 .orders-list {
     display: grid;
     gap: 1rem;
@@ -140,18 +144,46 @@ article{
     border: 1px solid #E2E8F0;
     border-radius: 0.5rem;
     padding: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
 }
 
 .order-header {
     display: flex;
     flex-direction: column;
-    gap: 0.5rem;
-    margin-bottom: 1rem;
+    align-items: start;
+    gap: 1.5rem;
+    border-right: 2px solid var(--color-background);
 }
 
+.order{
+    width: 6rem;
+    align-self: center;
+}
+
+.order-num, .order-prize {
+    display: flex;
+    gap: 0.3rem;
+}
+
+.order-number, .date-header, .prize-header{
+    font-weight: 500;
+}
+
+.prize-number{
+    font-weight: 700;
+    color: var(--color-primary);
+}
+
+.status{
+    display: flex;
+    gap: 0rem;
+    font-weight: 500;
+}
 .order-status {
     padding: 0.25rem 0.75rem;
-    border-radius: 1rem;
+    border-radius: 0.5rem;
     font-size: 0.875rem;
     align-self: flex-start;
 }
@@ -161,19 +193,17 @@ article{
     color: var(--color-primary);
 }
 
-.order-status.canceled{
+.order-status.canceled {
     background-color: #f6c6c6;
     color: #852f2f;
 }
-
 
 .order-content {
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
-    gap: 1rem;
-    margin-bottom: 1rem;
+    gap: 0.3rem;
 }
 
 .order-content img {

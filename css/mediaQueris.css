@@ -27,9 +27,15 @@
     }
 
     .features__grid {
-        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(50%, 1fr));
     }
 
+    .features__grid article:last-child {
+        grid-column: 1 / 3;
+        justify-self: center;
+        width: 50%;
+    }
+    
     .product-detail__images {
         flex-direction: row;
         align-items: stretch;
@@ -37,6 +43,7 @@
     }
 
     .product-detail__main-image {
+        height: 65vh;
         width: 80%;
         display: flex;
         align-items: center;
@@ -50,7 +57,7 @@
     .product-detail__thumbnails {
         flex-direction: column;
         max-width: 6rem;
-        height: auto;
+        height: 65vh;
         display: flex;
         justify-content: space-between;
         padding: 1rem 0.8rem;
@@ -75,11 +82,6 @@
         font-size: 1rem;
     }
 
-    .button-cart{
-        display: flex;
-        justify-content: center;
-    }
-
     .product-detail__add-to-cart {
         font-size: 1rem;
         padding: 1rem 0.5rem;
@@ -93,6 +95,11 @@
     .cart-item__image {
         width: 90%;
         height: 200px;
+    }
+
+    .cart__continue{
+        font-size: 0.73rem;
+        font-weight: 600;
     }
 
     .profile-cover {
@@ -125,18 +132,28 @@
     }
 
     .order-header {
-        flex-direction: row;
-        justify-content: space-between;
         align-items: center;
     }
 
-    .order-content {
+    .order-details{
+        display: flex;
         flex-direction: row;
-        text-align: left;
+        gap: 1rem;
     }
 
-    .footer__content {
-        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    .order-date{
+        display: flex;
+        flex-direction: row;
+        gap: 0.5rem;
+    }
+
+    .order-prize{
+        gap: 0.5rem;
+    }
+
+    .order-content {
+        flex-direction: column;
+        align-items: center;
     }
     
     .footer__content {
@@ -213,15 +230,30 @@
         gap: 1rem;
     }
 
+    .features__grid {
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    }
+
+    .features__grid article:last-child {
+        grid-column: auto;
+        justify-self: auto;
+        width: auto;
+    }
+
     article{
-        margin-bottom: 2.5rem;
         padding-bottom: 1rem;
+    }
+
+    .cart__continue{
+        font-size: 1rem;
+        font-weight: 500;
     }
 
     .footer__content {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
-        gap: rem;
+        grid-template-rows: none;
+        margin-bottom: 1rem;
     }
 
     .footer__brand {
@@ -239,5 +271,9 @@
         grid-column: 3 / 4;
         grid-row: 1 / 2;
         align-items: flex-start;
+    }
+
+    .footer__bottom{
+        margin-top: 0;
     }
 }

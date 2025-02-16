@@ -36,6 +36,8 @@
     padding: 0.5rem;
     background: var(--color-background-alt-dark);
     border-radius: 0.5rem;
+    height: fit-content;
+    padding: 1rem;
 }
 
 .contact__title {

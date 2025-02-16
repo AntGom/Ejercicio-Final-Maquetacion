@@ -1,116 +1,115 @@
 /*!-> Page Header */
 .page-header {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-                url('../img/salon.webp');
-    background-size: cover;
-    background-position: center;
-    padding: 4rem 1rem;
-    text-align: center;
-    color: white;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../img/salon.webp");
+  background-size: cover;
+  background-position: center;
+  padding: 4rem 1rem;
+  text-align: center;
+  color: white;
 }
 
 .page-header__title {
-    font-size: 3rem;
-    margin-bottom: 1rem;
-    animation: fadeInUp 1s ease-out;
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  animation: fadeInUp 1s ease-out;
 }
 
-.page-header__text{
-    animation: fadeInUp 1s ease-out;
+.page-header__text {
+  animation: fadeInUp 1s ease-out;
 }
 
 /*!-> Formulario de Contacto */
 .contact {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 2rem 1rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
 }
 
 .contact__content {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 1rem;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
 }
 
 .contact__info {
-    padding: 0.5rem;
-    background: var(--color-background-alt-dark);
-    border-radius: 0.5rem;
-    height: fit-content;
-    padding: 1rem;
+  padding: 0.5rem;
+  background: var(--color-background-alt-dark);
+  border-radius: 0.5rem;
+  height: fit-content;
+  padding: 1rem;
 }
 
 .contact__title {
-    margin-bottom: 1rem;
+  margin-bottom: 1rem;
 }
 
-
 .contact__details {
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
-    gap: 1rem;
-    margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  gap: 1rem;
+  margin-top: 1rem;
 }
 
 .contact__detail {
-    display: flex;
-    align-items: center;
-    gap: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
 }
 
 .contact__icon {
-    width: 1.5rem;
-    height: 1.5rem;
+  width: 1.5rem;
+  height: 1.5rem;
 }
 
 .contact-form {
-    display: grid;
-    background: var(--color-background-alt-dark);
-    gap: 1.5rem;
-    padding: 1rem;
-    border-radius: 0.5rem;
+  display: grid;
+  background: var(--color-background-alt-dark);
+  gap: 1.5rem;
+  padding: 1rem;
+  border-radius: 0.5rem;
 }
 
 .form-group {
-    display: flex;
-    flex-direction: column;
-    gap: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
 }
 
 .form-label {
-    font-weight: 500;
+  font-weight: 500;
 }
 
 .form-input,
 .form-select,
 .form-textarea {
-    padding: 0.75rem;
-    border: 1px solid #E2E8F0;
-    border-radius: 0.375rem;
-    width: 100%;
-    transition: border-color 0.3s ease;
-    background-color: var(--color-background-alt);
+  padding: 0.75rem;
+  border: 1px solid #e2e8f0;
+  border-radius: 0.375rem;
+  width: 100%;
+  transition: border-color 0.3s ease;
+  background-color: var(--color-background-alt);
 }
 
 .form-input:focus,
 .form-select:focus,
 .form-textarea:focus {
-    outline: none;
-    border-color: var(--color-primary);
+  outline: none;
+  border-color: var(--color-primary);
 }
 
 .form-textarea {
-    min-height: 150px;
-    resize: vertical;
+  min-height: 150px;
+  resize: vertical;
 }
 
-.submit-container{
-    display: flex;
-    align-items: center;
-    margin-top: 10px;
+.submit-container {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
 }
 
-.form-submit{
-    width: 9rem;
+.form-submit {
+  width: 9rem;
 }

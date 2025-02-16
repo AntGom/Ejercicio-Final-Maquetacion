@@ -1,12 +1,12 @@
-# 🌿 EcoMuebles - Tienda de Muebles Sostenibles
+# 🌲♻ EcoMuebles - Tienda de Muebles Sostenibles ♻
 
 ## 📋 Descripción
-EcoMuebles es una MockUp que simula una tienda en línea especializada en muebles sostenibles y ecológicos. El proyecto demuestra una implementación frontend moderna con un fuerte enfoque en la experiencia de usuario y el diseño responsivo, manteniendo la estética y la funcionalidad "en equilibrio con la conciencia ambiental".
+EcoMuebles es una MockUp que simula una tienda en línea especializada en muebles sostenibles y ecológicos. El proyecto muestra una implementación frontend moderna con un fuerte enfoque en la experiencia de usuario y el diseño responsivo, manteniendo la estética y la funcionalidad "en equilibrio con la conciencia ambiental".
 
 ## ✨ Características Principales
 
 ### 🏠 Página de Inicio
-- Hero section con llamada a la acción
+- Hero section con llamada a la acción (CTA)
 - Sección de características destacadas de la compañía
 - Boletín/newsletter para mantener informados a los usuarios
 
@@ -24,9 +24,10 @@ EcoMuebles es una MockUp que simula una tienda en línea especializada en mueble
 - Botón de añadir al carrito
 
 ### 🛒 Carrito de Compras
+- Tarjeta de cada producto
 - Gestión de cantidades
 - Resumen del pedido
-- Cálculo automático de totales
+- Cálculo de totales
 
 ### 📞 Página de Contacto
 - Formulario de contacto intuitivo
@@ -39,7 +40,7 @@ EcoMuebles es una MockUp que simula una tienda en línea especializada en mueble
 - Perfil personalizado
 - Historial de pedidos
 - Gestión de datos personales
-- Estado de pedidosl
+- Estado de pedidos
 
 ### 📱 Diseño Responsive
 - Navegación adaptativa con menú hamburguesa

@@ -32,12 +32,7 @@ img {
   height: auto;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1, h2, h3, h4, h5, h6{
   line-height: 1.2;
   margin-bottom: 0.5em;
 }
@@ -51,8 +46,7 @@ h6 {
 }
 
 .nav {
-  max-width: 1200px;
-  margin: 0 auto;
+  max-width: 100vw;
   padding: 1rem;
   display: flex;
   justify-content: space-between;
@@ -64,6 +58,7 @@ h6 {
   align-items: center;
   gap: 0.5rem;
   color: white;
+  text-decoration: none;
 }
 
 .nav__logo-icon {

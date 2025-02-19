@@ -182,7 +182,50 @@
     grid-row: 2 / 3;
     align-items: start;
   }
+
+  .auth-main {
+    min-height: calc(100vh - 70px - 280px);
+    padding: 2rem;
+  }
+
+  .auth-container {
+    padding: 2rem;
+    max-width: 480px;
+    margin: 0;
+  }
+
+  .auth-title {
+    font-size: 1.75rem;
+    margin-bottom: 2rem;
+  }
+
+  .auth-form {
+    gap: 1.25rem;
+  }
+
+  .login-form-group label {
+    font-size: 1rem;
+  }
+
+  .auth-input {
+    padding: 0.75rem 1rem;
+    font-size: 1rem;
+  }
+
+  .checkbox-group label {
+    font-size: 0.875rem;
+  }
+
+  .auth-form .button {
+    padding: 0.875rem;
+    font-size: 1rem;
+  }
+
+  .auth-redirect {
+    font-size: 1rem;
+  }
 }
+
 /** -> Menú Hambuguesa hasta mas tarde*/
 @media (min-width: 900px) {
   .nav__toggle-label {
@@ -274,5 +317,21 @@
 
   .footer__bottom {
     margin-top: 0;
+  }
+
+  .auth-main {
+    min-height: calc(100vh - 80px - 300px);
+  }
+
+  .auth-container {
+    padding: 2.5rem;
+  }
+
+  .auth-title {
+    font-size: 2rem;
+  }
+
+  .auth-form .button {
+    padding: 1rem;
   }
 }

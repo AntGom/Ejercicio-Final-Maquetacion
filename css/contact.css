@@ -95,8 +95,8 @@
 .form-input:focus,
 .form-select:focus,
 .form-textarea:focus {
-  outline: none;
-  border-color: var(--color-primary);
+  outline-color: var(--color-primary-light);
+
 }
 
 .form-textarea {
@@ -112,4 +112,66 @@
 
 .form-submit {
   width: 9rem;
+}
+
+/*! bton de suscripcion*/
+.form-group-newsletter {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.label-text {
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+.switch-wrap {
+  cursor: pointer;
+  background: var(--color-background);
+  padding: 0;
+  width: 3.5rem;
+  height: 1.7rem;
+  border-radius: 0.7rem;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.switch-wrap input {
+  position: absolute;
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.switch {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 0fr 1fr 1fr;
+  transition: 0.2s;
+  position: relative;
+}
+
+.switch::after {
+  content: '';
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+  background: var(--color-text);
+  position: absolute;
+  top: 50%;
+  left: 0.2rem;
+  transform: translateY(-50%);
+  transition: 0.2s;
+}
+
+input:checked + .switch {
+  grid-template-columns: 1fr 1fr 0fr;
+}
+
+input:checked + .switch::after {
+  left: calc(100% - 1.2rem);
+  background-color: var(--color-primary-light);
 }

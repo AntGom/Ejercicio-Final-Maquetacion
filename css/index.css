@@ -117,6 +117,10 @@
   border-radius: 0.375rem;
 }
 
+.newsletter__input:focus{
+  outline-color: var(--color-primary-light);
+}
+
 .newsletter button {
   width: 7rem;
 }

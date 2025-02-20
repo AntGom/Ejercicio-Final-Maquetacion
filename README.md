@@ -1,7 +1,9 @@
 # 🌲♻ EcoMuebles - Tienda de Muebles Sostenibles ♻
 
 ## 📋 Descripción
-EcoMuebles es una MockUp que simula una tienda en línea especializada en muebles sostenibles y ecológicos. El proyecto muestra una implementación frontend moderna con un fuerte enfoque en la experiencia de usuario y el diseño responsivo, manteniendo la estética y la funcionalidad "en equilibrio con la conciencia ambiental".
+EcoMuebles es un mockup que simula una tienda en línea especializada en muebles sostenibles y ecológicos. Este proyecto está diseñado para poner en práctica los conceptos aprendidos en las sesiones de maquetación, con un fuerte enfoque en la experiencia de usuario y el diseño responsivo, manteniendo la estética y la funcionalidad "en equilibrio con la conciencia ambiental".
+
+Aunque se trata solo de una maqueta, me he tomado la licencia de añadir un pequeño script en JavaScript que permita cambiar la imagen principal en la página de detalle del producto, agregando un toque dinámico.
 
 ## ✨ Características Principales
 
@@ -83,6 +85,7 @@ Maquetación/
 │   ├── detail.css         # Estilos para las páginas de detalle
 │   ├── global.css         # Estilos globales y componentes comunes
 │   ├── index.css          # Estilos de la página principal
+│   ├── login.css          # Estilos de las páginas login y register
 │   ├── mediaQueris.css    # Diseño responsive
 │   ├── products.css       # Estilos del catálogo
 │   ├── profile.css        # Estilos del área de usuario
@@ -92,9 +95,10 @@ Maquetación/
 │   ├── detail-chair.html  # Detalle de silla
 │   ├── detail-sofa.html   # Detalle de sofá
 │   ├── detail-table.html  # Detalle de mesa
-│   ├── index.html         # Página principal
+│   ├── login.html         # Página de login
 │   ├── products.html      # Catálogo de productos
 │   ├── profile.html       # Área de usuario
+│   ├── register.html      # Página de registro
 │   └── shopping-cart.html # Carrito de compra
 ├── img/
 │    ├── *.webp            # Imágenes de productos y contenido
@@ -103,6 +107,8 @@ Maquetación/
 │(NO Evaluar)
 ├── scripts/ 
 │    └── extra.js          # Cambio entre imagenes detalle producto
+│
+├── index.html             # Página principal/Inicio
 │   
 └── README.md
 

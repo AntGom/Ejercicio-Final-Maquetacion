@@ -36,38 +36,6 @@
     width: 50%;
   }
 
-  .product-detail__images {
-    flex-direction: row;
-    align-items: stretch;
-    justify-content: space-around;
-  }
-
-  .product-detail__main-image {
-    height: 65vh;
-    width: 80%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .product-detail__image--main {
-    object-fit: contain;
-  }
-
-  .product-detail__thumbnails {
-    flex-direction: column;
-    max-width: 6rem;
-    height: 65vh;
-    display: flex;
-    justify-content: space-between;
-    padding: 1rem 0.8rem;
-  }
-
-  .product-detail__price-container {
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-  }
 
   .product-detail__price {
     font-size: 1.5rem;
@@ -243,6 +211,33 @@
 
 /** -> Escritorio */
 @media (min-width: 1024px) {
+  .product-detail__images {
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: space-around;
+  }
+
+  .product-detail__main-image {
+    height: 65vh;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .product-detail__image--main {
+    object-fit: contain;
+  }
+
+  .product-detail__thumbnails {
+    flex-direction: column;
+    max-width: 6rem;
+    height: 65vh;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 0.8rem;
+  }
+
   .profile-info {
     max-width: 1200px;
     flex-direction: row;

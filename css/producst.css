@@ -28,6 +28,8 @@
   grid-template-columns: 1fr;
   gap: 2rem;
 }
+
+/*!-> Tarjeta de filtros */
 .filters {
   padding: 1rem;
   background: var(--color-background-alt-dark);
@@ -48,6 +50,7 @@
   margin-bottom: 0.5rem;
 }
 
+/*!-> Resultado de búsqueda*/
 .products__grid {
   display: grid;
   grid-template-columns: 1fr;

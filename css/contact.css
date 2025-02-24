@@ -19,7 +19,7 @@
   animation: fadeInUp 1s ease-out;
 }
 
-/*!-> Formulario de Contacto */
+/*!-> Contacto */
 .contact {
   max-width: 1200px;
   margin: 0 auto;
@@ -32,6 +32,7 @@
   gap: 1rem;
 }
 
+/*!-> Tarjeta de reseñas */ 
 .contact__info {
   padding: 0.5rem;
   background: var(--color-background-alt-dark);
@@ -63,6 +64,7 @@
   height: 1.5rem;
 }
 
+/*!-> Formulario de contacto*/
 .contact-form {
   display: grid;
   background: var(--color-background-alt-dark);
@@ -114,7 +116,7 @@
   width: 9rem;
 }
 
-/*! bton de suscripcion*/
+/*! Botón/check de suscripción*/
 .form-group-newsletter {
   display: flex;
   align-items: center;

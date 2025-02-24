@@ -13,7 +13,7 @@
   --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
 }
 
-/*! -> Reset */
+/*!-> Reset */
 * {
   margin: 0;
   padding: 0;
@@ -57,7 +57,7 @@ h1, h2, h3, h4, h5, h6{
   display: flex;
   align-items: center;
   gap: 0.5rem;
-  color: white;
+  color: var(--color-background);
   text-decoration: none;
 }
 
@@ -92,15 +92,11 @@ h1, h2, h3, h4, h5, h6{
   width: 30px;
   height: 21px;
   cursor: pointer;
-  transition: color 0.3s ease;
+  transition: all 0.3s ease;
 }
 
 .nav__toggle-label:hover {
-  transform: translateY(-7px);
-}
-
-.nav__toggle-label:active {
-  transform: translateY(0);
+  transform: scale(1.2);
 }
 
 .nav__toggle-label span,

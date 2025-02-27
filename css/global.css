@@ -32,7 +32,12 @@ img {
   height: auto;
 }
 
-h1, h2, h3, h4, h5, h6{
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   line-height: 1.2;
   margin-bottom: 0.5em;
 }
@@ -72,13 +77,30 @@ h1, h2, h3, h4, h5, h6{
   font-weight: bold;
 }
 
-.cart-icon {
-  width: 1.9rem;
-  height: 1.9rem;
+.cart-icon,
+.register-icon,
+.log-in-icon,
+.log-out-icon,
+.profile-icon {
+  width: 2rem;
+  height: 2rem;
   vertical-align: middle;
+  transition: all 0.3s ease;
 }
 
-.cart-icon__active {
+.cart-icon:hover,
+.register-icon:hover,
+.log-out-icon:hover,
+.log-in-icon:hover,
+.profile-icon:hover {
+  opacity: 0.6;
+}
+
+.cart-icon__active,
+.register-icon_active,
+.log-in-icon__active,
+.log-out-icon__active,
+.profile-icon__active {
   opacity: 0.5;
 }
 
@@ -346,5 +368,16 @@ h1, h2, h3, h4, h5, h6{
   to {
     opacity: 1;
     transform: translateY(0);
+  }
+}
+
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0px);
   }
 }

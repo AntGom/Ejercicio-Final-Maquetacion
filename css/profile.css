@@ -55,7 +55,7 @@
 
 .shopping-info {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   padding: 0 1rem;
   border-bottom: 1px solid var(--color-primary);
 }
@@ -71,6 +71,7 @@
 .shopping-info a:hover,
 .edit-pencil img:hover {
   transform: translateY(-5px);
+  color: var(--color-primary-light);
 }
 
 .shopping-info a:active,

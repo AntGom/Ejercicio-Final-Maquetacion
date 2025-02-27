@@ -81,25 +81,31 @@ Aunque se trata solo de una maqueta, me he tomado la licencia de añadir un pequ
 ```
 Maquetación/
 ├── css/
+│   ├── blog.css           # Estilos del blog
 │   ├── contact.css        # Estilos de la página de contacto
 │   ├── detail.css         # Estilos para las páginas de detalle
+│   ├── faq.css            # Estilos de la página de preguntas frecuentes
 │   ├── global.css         # Estilos globales y componentes comunes
 │   ├── index.css          # Estilos de la página principal
 │   ├── login.css          # Estilos de las páginas login y register
 │   ├── mediaQueris.css    # Diseño responsive
 │   ├── products.css       # Estilos del catálogo
 │   ├── profile.css        # Estilos del área de usuario
-│   └── shopping-cart.css  # Estilos del carrito
+│   ├── shopping-cart.css  # Estilos del carrito
+│   └── wishList.css       # Estilos de la lista de deseos
 ├── html/
+│   ├── blog.html          # Blog de la empresa
 │   ├── contact.html       # Página de contacto
 │   ├── detail-chair.html  # Detalle de silla
 │   ├── detail-sofa.html   # Detalle de sofá
 │   ├── detail-table.html  # Detalle de mesa
-│   ├── login.html         # Página de login
+│   ├── faq.html           # Preguntas frecuentes
+│   ├── login.html         # Login
 │   ├── products.html      # Catálogo de productos
 │   ├── profile.html       # Área de usuario
-│   ├── register.html      # Página de registro
-│   └── shopping-cart.html # Carrito de compra
+│   ├── register.html      # Registro
+│   ├── shopping-cart.html # Carrito de compra
+│   └── wishList.html      # Lista de Deseos
 ├── img/
 │    ├── *.webp            # Imágenes de productos y contenido
 │    └── *.svg             # Iconos y logos

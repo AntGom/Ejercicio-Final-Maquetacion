@@ -1,8 +1,6 @@
 ## IDEAS A FUTURO 
-
 1. Página de Categorías
 crear una página donde los usuarios puedan explorar por categorías (sillas, mesas, sofás, etc.), en lugar de ver todos los productos juntos.
-
 
 5. Reseñas y Opiniones
 Un apartado en el detalle del producto con reseñas simuladas de clientes.
@@ -15,6 +13,3 @@ Una página con la historia de la tienda, su misión y visión, y el equipo detr
 
 9. Página de Éxito de Compra
 Una pantalla que se muestra después de completar una compra, con un mensaje de agradecimiento y detalles del pedido.
-
-
- src="https://api.iconify.design/lucide:heart.svg"

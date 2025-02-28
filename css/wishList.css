@@ -86,8 +86,12 @@
 
 .product-detail__add-to-cart {
     height: 2.8rem;
-    width: 8rem;
-    padding: 1.5rem;
+    width: 7rem;
+    padding: 1rem;
+}
+
+.product-detail__add-to-cart img{
+    height: 2rem;
 }
 
 .favorite-card__actions a{

@@ -75,7 +75,7 @@
     line-height: 1.6;
 }
 
-/* Preguntas y respuestas */
+/*! Preguntas y respuestas */
 details {
     border-bottom: 2px solid #ddd;
     padding-bottom: 10px;
@@ -117,7 +117,7 @@ details .faq__answer {
     animation: fadeInDown 1s ease-out;
 }
 
-/* Cuando el details está abierto */
+/*! Cuando el details está abierto */
 details[open] .faq__answer {
     max-height: 200px; 
     opacity: 1;

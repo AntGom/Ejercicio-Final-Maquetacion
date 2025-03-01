@@ -15,6 +15,7 @@ Aunque se trata solo de una maqueta, me he tomado la licencia de añadir un pequ
 ### 🛋️ Catálogo de Productos
 - Filtros por categorías
 - Tarjetas de producto con imágenes y precios
+- Opción de marcar favoritos/deseos
 - Navegación hacia detalle de producto
 - Sistema de navegación intuitivo
 
@@ -25,11 +26,19 @@ Aunque se trata solo de una maqueta, me he tomado la licencia de añadir un pequ
 - Sistema de selección de cantidad
 - Botón de añadir al carrito
 
+### 💖 Lista de Deseos
+- Los usuarios pueden guardar productos que les interesen para futuras compras.
+- Vista rápida de los productos guardados.
+- Posibilidad de eliminar los productos de la lista o añadirlos al carrito.
+
 ### 🛒 Carrito de Compras
 - Tarjeta de cada producto
 - Gestión de cantidades
 - Resumen del pedido
 - Cálculo de totales
+
+### 📙 Blog
+- Noticias sobre decoración y sostenibilidad. 
 
 ### 📞 Página de Contacto
 - Formulario de contacto intuitivo
@@ -43,6 +52,19 @@ Aunque se trata solo de una maqueta, me he tomado la licencia de añadir un pequ
 - Historial de pedidos
 - Gestión de datos personales
 - Estado de pedidos
+
+### ❓ Preguntas Frecuentes (FAQ)
+- Respuestas a las dudas más comunes sobre productos, compras, pagos y envíos.
+- Sección de contacto adicional si la información no resuelve la consulta.
+
+### 🔑 Login
+- Formulario de inicio de sesión para usuarios registrados.
+- Enlace para redirigir a la página de registro.
+
+### 📝 Registro
+- Formulario para crear una cuenta de usuario.
+- Campos para nombre, correo y contraseña.
+- Validación de datos y confirmación de registro.
 
 ### 📱 Diseño Responsive
 - Navegación adaptativa con menú hamburguesa
